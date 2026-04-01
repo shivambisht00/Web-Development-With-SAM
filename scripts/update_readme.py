@@ -4,10 +4,21 @@ import re
 with open("progress.json", "r") as f:
     data = json.load(f)
 
+def make_bar(p):
+    if p == 0:
+        color = "lightgrey"
+    elif p < 50:
+        color = "orange"
+    elif p < 100:
+        color = "yellow"
+    else:
+        color = "brightgreen"
+    label = f"{p}%25"
+    return f"![{p}%](https://img.shields.io/badge/Progress-{label}-{color}?style=flat-square)"
+
 rows = []
 for topic, info in data.items():
-    p = info["progress"]
-    bar = f"![{p}%](https://progress-bar.dev/{p}/)"
+    bar = make_bar(info["progress"])
     rows.append(f"| **{topic}** | {bar} | {info['status']} | {info['concepts']} |")
 
 table = """| Topic | Progress | Status | Concepts Covered |

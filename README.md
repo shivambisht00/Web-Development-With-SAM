@@ -50,16 +50,16 @@ Each folder contains:
 ---
 
 ## 📊 Progress Tracker
-
 <!-- PROGRESS:START -->
 | Topic | Progress | Status | Concepts Covered |
 | :--- | :--- | :--- | :--- |
-| **HTML** | ![0%](https://progress-bar.dev/0/) | 🏗️ Ongoing | —— |
-| **CSS** | ![0%](https://progress-bar.dev/0/) | ⏳ Upcoming | —— |
-| **JavaScript** | ![0%](https://progress-bar.dev/0/) | ⏳ Upcoming | —— |
-| **React** | ![0%](https://progress-bar.dev/0/) | ⏳ Upcoming | —— |
-| **Node.js** | ![0%](https://progress-bar.dev/0/) | ⏳ Upcoming | —— |
+| **HTML** | `░░░░░░░░░░` 0% | 🏗️ Ongoing | —— |
+| **CSS** | `░░░░░░░░░░` 0% | ⏳ Upcoming | —— |
+| **JavaScript** | `░░░░░░░░░░` 0% | ⏳ Upcoming | —— |
+| **React** | `░░░░░░░░░░` 0% | ⏳ Upcoming | —— |
+| **Node.js** | `░░░░░░░░░░` 0% | ⏳ Upcoming | —— |
 <!-- PROGRESS:END -->
+
 
 ---
 

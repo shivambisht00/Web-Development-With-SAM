@@ -1,0 +1,25 @@
+name: Update Progress Tracker
+
+on:
+  push:
+    paths:
+      - 'progress.json' # Jab bhi json file change hogi, ye chalega
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Run update script
+        run: python update_readme.py
+      - name: Commit changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add README.md
+          git commit -m "chore: update progress tracker" || exit 0
+          git push

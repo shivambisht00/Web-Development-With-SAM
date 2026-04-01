@@ -1,0 +1,7 @@
+{
+  "HTML": {"progress": 80, "status": "In Progress", "concepts": "Forms, Semantic UI"},
+  "CSS": {"progress": 40, "status": "Learning", "concepts": "Flexbox, Grid"},
+  "JavaScript": {"progress": 10, "status": "Upcoming", "concepts": "Basics"},
+  "React": {"progress": 0, "status": "Upcoming", "concepts": "-"},
+  "Node.js": {"progress": 0, "status": "Upcoming", "concepts": "-"}
+}

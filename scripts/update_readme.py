@@ -5,16 +5,10 @@ with open("progress.json", "r") as f:
     data = json.load(f)
 
 def make_bar(p):
-    if p == 0:
-        color = "lightgrey"
-    elif p < 50:
-        color = "orange"
-    elif p < 100:
-        color = "yellow"
-    else:
-        color = "brightgreen"
-    label = f"{p}%25"
-    return f"![{p}%](https://img.shields.io/badge/Progress-{label}-{color}?style=flat-square)"
+    filled = round(p / 10)
+    empty = 10 - filled
+    bar = "█" * filled + "░" * empty
+    return f"`{bar}` {p}%"
 
 rows = []
 for topic, info in data.items():

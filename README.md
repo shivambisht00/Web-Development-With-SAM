@@ -52,14 +52,16 @@ Each folder contains:
 ## 📊 Progress Tracker
 
 <!-- PROGRESS:START -->
-| # | Topic | Status | Concepts Covered | Projects Built |
-|---|-------|--------|-----------------|----------------|
-| 01 | HTML | ⏳ Upcoming | — | — |
-| 02 | CSS | ⏳ Upcoming | — | — |
-| 03 | JavaScript | ⏳ Upcoming | — | — |
-| 04 | React | ⏳ Upcoming | — | — |
-| 05 | Node.js | ⏳ Upcoming | — | — |
-| 06 | Projects | ⏳ Upcoming | — | — |
+
+
+| Topic | Progress | Status | Concepts Covered |
+| :--- | :--- | :--- | :--- |
+| **HTML** | ![0%](https://progress-bar.dev/0/) | 🏗️ Ongoing | —— |
+| **CSS** | ![0%](https://progress-bar.dev/0/) | ⏳ Upcoming | —— |
+| **JavaScript** | ![0%](https://progress-bar.dev/0/) | ⏳ Upcoming | —— |
+| **React** | ![0%](https://progress-bar.dev/0/) | ⏳ Upcoming | —— |
+| **Node.js** | ![0%](https://progress-bar.dev/0/) | ⏳ Upcoming | —— |
+
 <!-- PROGRESS:END -->
 
 ---

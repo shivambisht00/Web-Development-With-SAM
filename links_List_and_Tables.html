@@ -1,0 +1,92 @@
+<!--
+  Topic   : Basic Tags of HTML 
+  Date    : 03 April 2026
+  Source  : https://youtu.be/HVjjoMvutj4?si=wZDLXt9lIu9EzBWC
+  Status  : ✅ Done
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags</title>
+</head>
+<body>
+    <h1> Welcome to DSA with SAM</h1> 
+    <h2> links & images and Tables</h2>
+
+    <a href="https://www.google.com"> This is anchor tag </a> <!-- use for creating hyperlinks -->
+    <br>
+    <img src = "link of image " alt ="discription of image"> <!-- this is image tag use for adding images in web page and alt is used for providing alternative text if image is not loaded -->
+    <br>
+    <picture>
+        <source srcset="image.webp" type="image/webp"> <!-- this is source tag use for providing multiple image formats -->
+        <img src="image.jpg" alt="description of image"> <!-- this is fallback image if webp is not supported -->
+    </picture>
+    <br>
+    <source srcset="video.mp4" type="video/mp4"> <!-- this is source tag use for providing multiple video formats -->
+    <video controls> <!-- this is video tag use for adding videos in web page and controls attribute is used for providing video controls -->
+        <source src="video.mp4" type="video/mp4"> <!-- this is fallback video if mp4 is not supported -->
+        Your browser does not support the video tag.
+    </video>
+    <br>
+    <audio controls> <!-- this is audio tag use for adding audio in web page and controls attribute is used for providing audio controls -->
+        <source src="audio.mp3" type="audio/mpeg"> <!-- this is source tag use for providing multiple audio formats -->
+        Your browser does not support the audio tag.
+    </audio>
+    <br>
+    <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English"> <!-- this is track tag use for providing subtitles in video -->
+    <br>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe> <!-- this is iframe tag use for embedding another webpage or video in current webpage -->
+    <br>
+<hr>
+
+    <h3> List</h3>
+    <ul> <!-- this is unordered list tag use for creating bulleted list -->
+        <li> Item 1 </li> <!-- this is list item tag use for creating list items -->
+        <li> Item 2 </li>
+        <li> Item 3 </li>
+    </ul>
+    <ol> <!-- this is ordered list tag use for creating numbered list -->
+        <li> Item 1 </li>
+        <li> Item 2 </li>
+        <li> Item 3 </li>
+    </ol>
+    <dt> Description List </dt> <!-- this is description list tag use for creating description list -->
+    <dd> Item 1 </dd> <!-- this is description term tag use for creating description term -->
+    <dd> Item 2 </dd>
+    <dd> Item 3 </dd>
+    <br>
+    <hr>
+    <h3> Tables </h3>
+    <table border="2" > <!-- this is table tag use for creating tables and border attribute is used for adding border to table -->
+        <caption> This is a table caption </caption> <!-- this is caption tag use for adding caption to table -->
+        <tr> <!-- this is table row tag use for creating table rows -->
+            <th> Name </th> <!-- this is table header tag use for creating table headers -->
+            <th> Age </th>
+            <th> City </th>
+        </tr>
+        <tr>
+            <td> John </td> <!-- this is table data tag use for creating table data-->   
+            <td> 25 </td>
+            <td> New York </td>
+        </tr>
+        <tr>
+            <td> Jane </td>
+            <td> 30 </td>
+            <td> London </td>
+        </tr>
+        <tr>
+            <td> Bob </td>
+            <td> 35 </td>
+            <td> Paris </td>
+        </tr>
+        <colgroup> <!-- this is colgroup tag use for grouping columns in table -->
+            <col span="2" style="background-color:yellow"> <!-- this is col tag use for defining column properties and span attribute is used for spanning columns -->
+            <col style="background-color:cyan">
+        </colgroup>
+    </table>
+
+</body>
+</html>

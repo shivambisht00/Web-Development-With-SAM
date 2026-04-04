@@ -1,0 +1,78 @@
+<!--
+  Topic   : Forms & Sematic and other tag of HTML 
+  Date    : 04 April 2026
+  Status  : ✅ Done
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags</title>
+</head>
+<body>
+    <h1> Welcome to DSA with SAM</h1> 
+    <h2> Forms & Sematic and other</h2>
+    <form action="/submit" method="post"> <!-- this is form tag use for creating forms and action attribute is used for specifying the URL to which the form data will be sent and method attribute is used for specifying the HTTP method to be used when submitting the form -->
+        <br>
+        <label for="name"> Name: </label> <!-- this is label tag use for creating labels for form elements and for attribute is used for associating the label with a specific form element -->
+        <br>
+        <input type="text" id="name" name="name"> <!-- this is input tag use for creating input fields and type attribute is used for specifying the type of input field and id attribute is used for associating the input field with a label and name attribute is used for specifying the name of the input field -->
+        <br>
+        <label for="email"> Email: </label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="password"> Password: </label>
+        <br>
+        <input type="password" id="password" name="password">
+        <br>
+        <fieldset> <!-- this is fieldset tag use for grouping related form elements and legend tag is used for providing a caption for the fieldset -->
+            <legend> Gender </legend>
+            <input type="radio" id="male" name="gender" value=" male"> <!-- this is radio button use for creating radio buttons and value attribute is used for specifying the value of the radio button -->
+            <label for="male"> Male </label>
+            <input type="radio" id="female" name="gender" value="   female">
+            <label for="female"> Female </label>
+            <input type="radio" id="other" name="gender" value=" other">
+            <label for="other"> Other </label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit"> <!-- this is submit button use for submitting the form and value attribute is used for specifying the text on the button -->
+    </form>
+    <br>
+    <hr>
+    <h3> Sematic Tags </h3>
+    <header> This is header tag </header> <!-- this is header tag use for defining the header of a document or a section -->
+    <nav> This is nav tag </nav> <!-- this is nav tag use for defining a set of navigation links -->
+    <main> This is main tag </main> <!-- this is main tag use for defining the main content of a document -->           
+    <section> This is section tag </section> <!-- this is section tag use for defining a section in a document -->
+    <figure> <!-- this is figure tag use for encapsulating media content and its caption -->
+        <img src="image.jpg" alt="description of image"> <!-- this is img tag use for adding images in web page and alt attribute is used for providing alternative text if image is not loaded -->
+        <figcaption> This is figcaption tag </figcaption> <!-- this is figcaption tag use for providing a caption for the figure -->
+    </figure>
+    <aside> This is aside tag </aside> <!-- this is aside tag use for defining content that is tangentially related to the content around it -->
+    <footer> This is footer tag </footer> <!-- this is footer tag use for defining
+    the footer of a document or a section -->
+    <br>
+    <hr>
+    <h3> Other Tags </h3>
+    <div> This is div tag </div> <!-- this is div tag use for grouping elements and applying styles to them -->
+    <span> This is span tag </span> <!-- this is span tag use for grouping inline elements and applying styles to them -->
+    <br>
+    <code> This is code tag </code> <!-- this is code tag use for defining a piece of computer code -->
+    <br>
+    <pre> This is pre tag </pre> <!-- this is pre tag use for defining preformatted text -->
+    <br>
+    <blockquote> This is blockquote tag </blockquote> <!-- this is blockquote tag use for defining a section that is quoted from another source -->
+    <br>
+    <abbr title="abbreviation"> This is abbr tag </abbr> <!-- this is abbr tag use for defining an abbreviation or acronym and title attribute is used for providing the full form of the abbreviation -->
+    <br>
+    <cite> This is cite tag </cite> <!-- this is cite tag use for defining the title of a work -->
+    <br>
+    <dfn> This is dfn tag </dfn> <!-- this is dfn tag use for defining a term and its definition -->
+    <br>
+    <time datetime="2024-06-01"> This is time tag </time> <!-- this is time tag use for defining a specific time and datetime attribute is used for specifying the date and time in a machine-readable format -->
+    <br>

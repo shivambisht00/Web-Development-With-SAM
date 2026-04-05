@@ -1,0 +1,49 @@
+<!--
+  Topic   : HTML Forms
+  Date    : 05 April 2026
+  Status  : ✅ Done
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Welcome to DSA with SAM</h1>
+    <h2>Forms</h2>
+
+    <form action="/submit" method="post"> <!-- this is form tag use for creating forms -->
+        <br>
+        <label for="name">Name:</label> <!-- this is label tag use for creating labels for form elements -->
+        <br>
+        <input type="text" id="name" name="name"> <!-- this is input tag use for creating input fields -->
+        <br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" id="password" name="password">
+        <br>
+
+        <fieldset> <!-- this is fieldset tag use for grouping related form elements -->
+            <legend>Gender</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Submit"> <!-- this is submit button use for submitting the form -->
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!-- create a google form-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SkillSwap Registration</title>
+</head>
+<body>
+
+    <h1>SkillSwap Registration</h1>
+    <p>Join the community to trade your skills.</p>
+    <hr>
+
+    <form action="/submit-data" method="POST">
+        
+        <p>
+            <label for="full_name">Full Name *</label><br>
+            <input type="text" id="full_name" name="full_name" required placeholder="Enter your name">
+        </p>
+
+        <p>
+            <label for="email">Email Address *</label><br>
+            <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+        </p>
+
+        <p>
+            <label for="offer">What skill can you TEACH? *</label><br>
+            <select id="offer" name="teaching_skill" required>
+                <option value="">--Please choose an option--</option>
+                <option value="web_dev">Web Development</option>
+                <option value="dsa">DSA & C++</option>
+                <option value="python">Python/AI</option>
+            </select>
+        </p>
+
+        <p>
+            <label>What is your current level? *</label><br>
+            <input type="radio" id="beginner" name="level" value="beginner">
+            <label for="beginner">Beginner</label><br>
+            
+            <input type="radio" id="intermediate" name="level" value="intermediate">
+            <label for="intermediate">Intermediate</label><br>
+            
+            <input type="radio" id="expert" name="level" value="expert">
+            <label for="expert">Expert</label>
+        </p>
+
+        <p>
+            <label>Preferred learning method (Select all that apply):</label><br>
+            <input type="checkbox" id="video" name="method" value="video">
+            <label for="video">Video Call</label><br>
+            
+            <input type="checkbox" id="chat" name="method" value="chat">
+            <label for="chat">Text Chat</label><br>
+            
+            <input type="checkbox" id="collab" name="method" value="collab">
+            <label for="collab">Project Collaboration</label>
+        </p>
+
+        <p>
+            <label for="message">Briefly describe your experience:</label><br>
+            <textarea id="message" name="experience" rows="4" cols="40" placeholder="I have been coding for..."></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Clear All">
+        </p>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!--
+  Topic   : Atributes
+  Date    : 08 April 2026
+  Status  : ✅ Done
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atributes</title>
+</head>
+<body>
+    <h1> Welcome to DSA with SAM</h1> 
+    <h2> Atributes</h2>
+    <p> Attributes provide additional information about HTML elements. They are always included in the opening tag and usually come in name/value pairs like name="value". </p>
+    <p> For example, in the tag <code>&lt;input type="text" id="name" name="name"&gt;</code>, the attributes are <code>type</code>, <code>id</code>, and <code>name</code>. The <code>type</code> attribute specifies the type of input field, the <code>id</code> attribute provides a unique identifier for the element, and the <code>name</code>        
+attribute specifies the name of the input field, which is used when submitting form data. </p>
+    <p> Some common attributes include: </p>
+    <ul>
+        <li><code>class</code>: Used to specify one or more class names for an element, which can be used for styling with CSS or for targeting with JavaScript.</li>   
+        <li><code>id</code>: Used to specify a unique identifier for an element, which can be used for styling with CSS or for targeting with JavaScript.</li>
+        <li><code>href</code>: Used in anchor tags to specify the URL of the page the link goes to.</li>
+        <li><code>src</code>: Used in image tags to specify the URL of the image to be displayed.</li>
+        <li><code>alt</code>: Used in image tags to provide alternative text if the image cannot be displayed.</li>
+        <li><code>title</code>: Used to provide additional information about an element, often displayed as a tooltip when the mouse hovers over the element.</li>
+        <li><code>style</code>: Used to apply inline CSS styles to an element.</li> 
+       <hr>
+    </ul>
+    <p> Attributes can also be used to enhance the functionality of HTML elements. For example
+        <form action="/submit-data" method="POST">
+        
+        <p>
+            <label for="full_name">Full Name *</label><br>
+            <input type="text" id="full_name" name="full_name" required placeholder="Enter your name">
+        </p>
+
+        <p>
+            <label for="email">Email Address *</label><br>
+            <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+        </p>
+
+        <p>
+            <label for="offer">What skill can you TEACH? *</label><br>
+            <select id="offer" name="teaching_skill" required>
+                <option value="">--Please choose an option--</option>
+                <option value="web_dev">Web Development</option>
+                <option value="dsa">DSA & C++</option>
+                <option value="python">Python/AI</option>
+            </select>
+        </p>
+
+        <p>
+            <label>What is your current level? *</label><br>
+            <input type="radio" id="beginner" name="level" value="beginner">
+            <label for="beginner">Beginner</label><br>
+            
+            <input type="radio" id="intermediate" name="level" value="intermediate">
+            <label for="intermediate">Intermediate</label><br>
+            
+            <input type="radio" id="expert" name="level" value="expert">
+            <label for="expert">Expert</label>
+        </p>
+
+        <p>
+            <label>Preferred learning method (Select all that apply):</label><br>
+            <input type="checkbox" id="video" name="method" value="video">
+            <label for="video">Video Call</label><br>
+            
+            <input type="checkbox" id="chat" name="method" value="chat">
+            <label for="chat">Text Chat</label><br>
+            
+            <input type="checkbox" id="collab" name="method" value="collab">
+            <label for="collab">Project Collaboration</label>
+        </p>
+
+        <p>
+            <label for="message">Briefly describe your experience:</label><br>
+            <textarea id="message" name="experience" rows="4" cols="40" placeholder="I have been coding for..."></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Clear All">
+        </p>
+
+    </form>

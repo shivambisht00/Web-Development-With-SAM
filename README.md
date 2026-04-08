@@ -53,7 +53,7 @@ Each folder contains:
 <!-- PROGRESS:START -->
 | Topic | Progress | Status | Concepts Covered |
 | :--- | :--- | :--- | :--- |
-| **HTML** | `██████░░░░` 60% | 🏗️ Ongoing | Basic, Tags, Tables,Forms,practice - set,Div |
+| **HTML** | `████████░░` 80% | 🏗️ Ongoing | Basic, Tags, Tables,Forms,practice - set,Div,Atributes |
 | **CSS** | `░░░░░░░░░░` 0% | ⏳ Upcoming | —— |
 | **JavaScript** | `░░░░░░░░░░` 0% | ⏳ Upcoming | —— |
 | **React** | `░░░░░░░░░░` 0% | ⏳ Upcoming | —— |

@@ -54,7 +54,7 @@ Each folder contains:
 | Topic | Progress | Status | Concepts Covered |
 | :--- | :--- | :--- | :--- |
 | **HTML** | `██████████` 100% | Complete | Basic, Tags, Tables,Forms,practice - set,Div,Atributes,Rivision |
-| **CSS** | `░░░░░░░░░░` 0% | ⏳ Upcoming | —— |
+| **CSS** | `█░░░░░░░░░` 10% | Basic of css ,properties | —— |
 | **JavaScript** | `░░░░░░░░░░` 0% | ⏳ Upcoming | —— |
 | **React** | `░░░░░░░░░░` 0% | ⏳ Upcoming | —— |
 | **Node.js** | `░░░░░░░░░░` 0% | ⏳ Upcoming | —— |

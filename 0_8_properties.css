@@ -1,0 +1,44 @@
+
+font size : it is used to set the size of the text in an element. It can be specified in various units such as pixels (px), em, rem, percentage (%), etc. 
+color : it is used to set the color of the text in an element. It can be specified using color names, hexadecimal values, RGB values, etc.
+font - weight: it is used to set the weight or thickness of the text in an element. It can be specified using keywords such as normal, bold, bolder, lighter, or using numeric values (100-900).
+text - align: it is used to set the horizontal alignment of the text in an element. It can be specified using keywords such as left, right, center, justify, etc.
+line - height: it is used to set the height of a line of text in an element. It can be specified in various units such as pixels (px), em, rem, percentage (%), etc.
+text - decoration: it is used to set the decoration of the text in an element. It can be specified using keywords such as none, underline, overline, line-through, etc.
+text - transform: it is used to set the transformation of the text in an element. It can be specified using keywords such as uppercase, lowercase, capitalize, etc.
+font - family: it is used to set the font family of the text in an element. It can be specified using font names such as Arial, Times New Roman, Helvetica, etc., or using generic font families such as serif, sans-serif, monospace, etc.
+text - shadow: it is used to set the shadow effect on the text in an element. It can be specified using values for horizontal offset, vertical offset, blur radius, and color.
+text - indent: it is used to set the indentation of the first line of text in an element. It can be specified in various units such as pixels (px), em, rem, percentage (%), etc.
+text - overflow: it is used to specify how to handle overflowed text in an element. It can be specified using keywords such as clip, ellipsis, or using the value 'hidden' to hide the overflowed text.
+letter - spacing: it is used to set the spacing between characters in the text of an element. It can be specified in various units such as pixels (px), em, rem, percentage (%), etc.
+word - spacing: it is used to set the spacing between words in the text of an element. It can be specified in various units such as pixels (px), em, rem, percentage (%), etc.
+ */
+
+ /* How to embedding css in html file :
+There are three ways to embed CSS in an HTML file:
+1. Inline CSS: You can apply CSS styles directly to an HTML element using the "style" attribute. For example:
+```html<p style="color: blue; font-size: 16px;">This is an inline styled paragraph.</p>```
+2. Internal CSS: You can include CSS styles within a <style> tag in the head section of your HTML document. For example:```html
+<head>
+  <style>
+    p {
+      color: red;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <p>This is an internally styled paragraph.</p>
+</body>```
+3. External CSS: You can create a separate CSS file (e.g., styles.css) and link it to your HTML document using the <link> tag in the head section. For example:
+```html<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <p>This is an externally styled paragraph.</p>
+</body>```
+In the external CSS file (styles.css), you can define your styles like this:```css
+p {
+  color: green;
+  font-size: 20px;
+}```

@@ -1,0 +1,16 @@
+External css is a file in which we use css properties externally means not in same html file . Here we add this file by including <link rel = "stylesheet" type = "text/css" href =" your file link " /> 
+inline css is properties to use only for the tag in which they are used in .
+
+
+Hover properties :
+hover is one among the selector in css , hover is used to select an element when mouse over it .
+Syntax : 
+.className:hover{
+    css properties 
+}
+
+Border Properties :
+ .className{
+  css properties 
+  border : 2px solid black ; here we use 2px width of border , solid is a type of border u also use (dashed/doted) as your need, and las you define color name or rgb;
+}

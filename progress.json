@@ -2,11 +2,11 @@
   "HTML": {
     "progress": 100,
     "status": "Complete",
-    "concepts": "Basic, Tags, Tables,Forms,practice - set,Div,Atributes,Rivision"
+    "concepts": "Basic, Tags, Tables,Forms,practice - set,Div,Atributes,Rivision" ,
   },
   "CSS": {
     "progress": 40,
-    "status": "Basic of css ,properties,External Css",
+    "status": "Basic_of_css,properties,External_Css" ,
     "concepts": "——"
   },
   "JavaScript": {

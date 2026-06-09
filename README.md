@@ -57,7 +57,7 @@ Web-Dev-with-Sam/
 | :--- | :--- | :--- | :--- |
 | **HTML** | `██████████` 100% | ✅ Complete | Tags, Tables, Forms, Semantics, Attributes, Div, Revision |
 | **CSS** | `█░░░░░░░░░` 10% | 🔄 In Progress | Basics, Properties |
-| **JavaScript** | `░░░░░░░░░░` 0% | ⏳ Upcoming | — |
+| **JavaScript** | `░░░░░░░░░░` 5% | ⏳ Upcoming | — |
 | **React** | `░░░░░░░░░░` 0% | ⏳ Upcoming | — |
 | **Node.js** | `░░░░░░░░░░` 0% | ⏳ Upcoming | — |
 
